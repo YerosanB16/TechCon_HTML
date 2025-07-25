@@ -19,17 +19,16 @@
   </header>
 
   <main>
-    <section aria-labelledby="intro-heading">
-      <h2 id="intro-heading">Welcome to TechCon 2024</h2>
+    <section>
+      <h2>Welcome to TechCon 2024</h2>
       <p>
         TechCon 2024 is the premier technology conference bringing together industry leaders, innovators, and enthusiasts to explore the latest trends, network, and grow skills in the tech world.
       </p>
-      <video controls width="640" height="360" aria-describedby="video-desc" tabindex="0">
+      <video>
         <source src="promo.mp4" type="video/mp4" />
-        <track src="promo_subtitles.vtt" kind="subtitles" srclang="en" label="English subtitles" default />
-        Your browser does not support the video tag.
+      
       </video>
-      <p id="video-desc" class="visually-hidden">
+      <p>
         Promotional video about TechCon 2024 conference highlights and speakers.
       </p>
     </section>
@@ -39,42 +38,6 @@
     <p>© TechCon 2024. All rights reserved.</p>
   </footer>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 1rem;
-      line-height: 1.5;
-    }
-    header, footer {
-      background-color: #f4f4f4;
-      padding: 1rem;
-    }
-    nav ul {
-      list-style: none;
-      padding-left: 0;
-      display: flex;
-      gap: 1rem;
-    }
-    nav a {
-      text-decoration: none;
-      color: #007acc;
-    }
-    nav a:hover,
-    nav a:focus {
-      text-decoration: underline;
-    }
-    .visually-hidden {
-      position: absolute !important;
-      width: 1px !important;
-      height: 1px !important;
-      padding: 0 !important;
-      margin: -1px !important;
-      overflow: hidden !important;
-      clip: rect(0, 0, 0, 0) !important;
-      white-space: nowrap !important;
-      border: 0 !important;
-    }
-  </style>
+
 </body>
 </html>
